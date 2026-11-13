@@ -1,0 +1,18 @@
+{
+  "appId": "store.terzme.app",
+  "appName": "Terzme",
+  "webDir": "www",
+  "server": {
+    "url": "https://terzme.store",
+    "cleartext": true,
+    "allowNavigation": [
+      "terzme.store",
+      "*.terzme.store"
+    ]
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}
